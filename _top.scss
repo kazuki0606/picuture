@@ -1,0 +1,85 @@
+.top{
+
+background-image: url(img/bg_pattern.gif);
+
+text-align: center;
+padding:3em;
+h1{
+  color: navy;
+  font-size: 3em;
+}
+
+ul{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+margin: 2em auto;
+max-width: 60%;
+
+
+li{
+
+  margin-right: 3em;
+  a{
+    color: navy;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: 'HanziPen SC',sans-serif;
+  }
+}
+
+}
+.main-img{
+margin-top: 2em;
+margin-bottom: 4em;
+
+}
+.btn-down{
+  display: block;
+  margin: 0 auto;
+  width: 50px;
+  img{
+    width: 100%;
+    height: auto;
+  }
+}
+
+}
+
+@media (max-width:768px){
+
+  .top{
+    padding:1em;
+   
+    h1{
+    
+      font-size: 2em;
+    }
+      
+    
+    ul{
+
+    max-width: 100%;
+    justify-content:start;
+    
+    li{
+    
+width: 30%;
+margin:0 auto;
+
+a{
+  color: navy;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+}
+
+}
+.main-img{
+
+  width: 90%;
+  height: auto;
+  }
+
+  }
+}
